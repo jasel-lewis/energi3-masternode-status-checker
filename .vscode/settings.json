@@ -1,0 +1,12 @@
+{
+    "editor.rulers": [
+        {
+            "column": 120, // Comment limit
+            "color": "#6495ed40"
+        },
+        {
+            "column": 140,  // Code limit
+            "color": "#ff000040"
+        }
+    ]
+}

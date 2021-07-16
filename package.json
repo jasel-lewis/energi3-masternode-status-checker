@@ -1,0 +1,31 @@
+{
+  "name": "com.jasel.energi3-masternode-status-checker",
+  "version": "1.0.0",
+  "description": "Evaluates the status of an Energi masternode and reports issues",
+  "keywords": [
+    "checker",
+    "energi",
+    "masternode",
+    "master",
+    "node",
+    "status"
+  ],
+  "homepage": "https://github.com/jasel-lewis/energi3-masternode-status-checker#readme",
+  "license": "MIT",
+  "author": "Jasel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasel-lewis/energi3-masternode-status-checker.git"
+  },
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "dotenv": "10.0.0",
+    "nodemailer": "6.6.2",
+    "pretty-print-json": "1.0.3"
+  }
+}
