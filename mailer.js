@@ -27,7 +27,7 @@ const mailer = {
         if (!(config.from && config.from.length) || !(config.from.address && config.from.address.length)) {
             config.from = {
                 address: process.env.MAIL_FROM_ADDRESS,
-                name: process.env.MAIL_FROM_NAME
+                name: process.env.MAIL_FROM_NAME || "Energi3 Masternode Checker"
             };
         }
 
